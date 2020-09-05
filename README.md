@@ -30,3 +30,9 @@ Este busca el archivo tsconfig.json en la carpeta raiz de dónde se ejecuta. Si 
 ```bash
 tsc --project path_directory
 ```
+**Generar carpeta personalizada de la salida de la compilación**
+
+Modifica esta línea en el archivo de configuración de TS de la siguiente forma.
+```json
+"outDir": "./dist", 
+```
